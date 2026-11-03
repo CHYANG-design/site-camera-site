@@ -85,3 +85,19 @@ footer {
 .features .card { padding: 16px; }
 .features h3 { margin: 0 0 4px; font-size: 16px; }
 .features p { margin: 0; color: var(--muted); font-size: 15px; }
+.draft {
+  background: #fff4d6;
+  color: #6b4a00;
+  border: 1px dashed #d9a400;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 15px;
+}
+.todo { color: #b00020; font-size: 14px; }
+.legal ol { padding-left: 1.6em; }
+.legal .summary ul { margin: 4px 0 0; }
+.legal .summary p { margin: 0; }
+@media (prefers-color-scheme: dark) {
+  .draft { background: #3a2f12; color: #f3d98b; border-color: #8a6d1a; }
+  .todo { color: #ff8a80; }
+}
